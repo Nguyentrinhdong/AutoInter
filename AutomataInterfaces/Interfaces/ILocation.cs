@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace AutomataInterfaces.Interfaces
 {
-
-
     public class ILocation
     {
        
