@@ -181,3 +181,11 @@ F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataI
 F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
 F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
 F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\bin\Debug\libz3.dll
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache

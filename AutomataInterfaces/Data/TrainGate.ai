@@ -34,7 +34,7 @@ Def: Gate
 	}
 
 Def: Train
-	Var:   Type = {near, through, pass};
+	Var: Type = {near, through, pass};
 		Type display;
 		Int usage;
 		Bool legaldestination;
