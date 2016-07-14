@@ -1,0 +1,73 @@
+Def: Sattelite
+	Var:   Type = {idle, current_position, route_to_destination};
+		Type display;
+		Int usage;
+		Bool legaldestination;
+
+	Location:
+	{ 	
+		s1:( true => ( display = idle ) )|[0,1];
+		s2:( true => ( display = current_position ) )|[0,1];
+		s3:( ( legaldestination = true ) => ( display = route_to_destination ) )|[1,2];
+	}
+
+	Input: 
+	{
+		usage;
+		legaldestination;
+	}
+
+	Output: 
+	{
+		display; 
+
+	}
+	q0:
+	{
+		s1:(true => ( display = idle ) )|[0,1];
+	}
+	Transition: 
+	{
+		t1:s1-->s1,( usage = 0 );
+		t2:s1-->s2,( usage != 0 );
+		t3:s2-->s3,( usage != 0 );
+		t4:s2-->s1,( usage = 0 );
+		t5:s3-->s1,( usage = 0 );
+		t6:s3-->s3,( usage != 0 );
+	}
+
+Def: User
+	Var: 	Type = {idle, current_position, route_to_destination};
+		Int usage;
+		Bool legaldestination;
+		Type display;
+	
+	Location:
+	{
+		r1:( ( usage = 1 ) => ( display = idle ) )|[0,1];
+		r2:( ( usage = 1 ) => ( display = current_position ) )|[0,1];
+		r3:( ( ( legaldestination = true ) && ( usage = 0 ) ) => ( display = route_to_destination ) )|[0,3];
+	}
+
+	Input:
+	{
+		usage;
+		legaldestination;	
+	}
+
+ 	Output: 
+	{
+		display;
+	}
+	q0:
+	{
+		r1:( ( usage = 1 ) => ( display = idle ) )|[0,1];
+	}
+
+	Transition:
+	{
+		t1:r1-->r2,( usage != 0 );
+		t2:r2-->r3,( usage != 0 );
+		t3:r3-->r1,( usage = 0 );
+	}
+

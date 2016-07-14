@@ -1,0 +1,2 @@
+D:\CNTT\InterfaceAutomata\InterfaceAutomata\bin\Debug\InterfaceAutomata.exe.config
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config

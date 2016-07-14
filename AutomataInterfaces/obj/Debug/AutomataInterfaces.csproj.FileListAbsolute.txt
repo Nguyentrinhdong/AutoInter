@@ -1,0 +1,183 @@
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Z3.dll
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Z3.xml
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmAutomataInput.resources
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmInterfaceInput.resources
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe.licenses
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\CNTT\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Z3.xml
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmAutomataInput.resources
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmInterfaceInput.resources
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Copy\Bai bao\Bai 12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe.licenses
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmAutomataInput.resources
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmInterfaceInput.resources
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Articles\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.dll
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.dll
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Copy\Baibao\Bai12\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.dll
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.dll
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Tools\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+F:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.dll
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.dll
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Articles\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Copy\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.pdb
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.xml
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.pdb
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.Drawing.xml
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.pdb
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Articles\Copy\NCS\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+D:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\libz3.dll
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.AboutBoxAI.resources
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.PresentationLayer.frmMain.resources
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.Properties.Resources.resources
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csproj.GenerateResource.Cache
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\bin\Debug\InterfaceAutomata.pdb
+F:\NCS\Articles\Luu AI\AutomataInterfaces\AutomataInterfaces\obj\Debug\AutomataInterfaces.csprojResolveAssemblyReference.cache
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\bin\Debug\InterfaceAutomata.exe.config
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\InterfaceAutomata.exe
+F:\NCS\Articles\LuuAI\AutoInter\AutomataInterfaces\obj\Debug\InterfaceAutomata.pdb

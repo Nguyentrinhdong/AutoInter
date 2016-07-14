@@ -1,0 +1,75 @@
+Def: Gasburner
+	Var: Type = {on, off};
+		Type Ignite_switch;
+		Type Gasleak;
+		Type Switch;
+		Type Flame;
+	
+	Location:
+	{ 	
+		s0:( true => ( ( Gasleak = off ) && ( Ignite_switch = off ) && ( Flame = off ) ) )|[0,1];
+		s1:( ( Switch = on ) => ( ( Gasleak = on ) && ( Ignite_switch = off ) && ( Flame = off ) ) )|[0,1];
+		s2:( ( Switch = on ) => ( ( Gasleak = on ) && ( Flame = on ) ) )|[0,1];
+	}
+
+	Input: 
+	{
+		Switch;
+		Ignite_switch;
+	}
+
+	Output: 
+	{
+		Gasleak;
+		Flame;
+	}
+	q0:
+	{
+		s0:( true => ( ( Gasleak = off ) && ( Ignite_switch = off ) && ( Flame = off ) ) )|[0,1];
+
+	}
+	Transition: 
+	{
+		t1:s0-->s1,( Switch = on );
+		t2:s1-->s2,( Ignite_switch = on );
+		t3:s2-->s0,( Switch = off );
+		
+	}
+
+Def: Cooker
+	Var: 	Type = {on, off};
+		Type Ignite_switch;
+		Type Gasleak;
+		Type Switch;
+		Type Flame;
+		
+	
+	Location:
+	{
+		p0:( true => ( Switch = off ) )|[0,1];
+		p1:( ( Switch = on ) => ( ( Gasleak = on ) && ( Flame = on ) ) )|[0,1];
+	}
+
+	Input:
+	{
+		Switch;
+		Ignite_switch;
+	}
+
+ 	Output: 
+	{
+		Gasleak;
+		Flame;
+	}
+	q0:
+	{
+		p0:( true => ( Switch = off ) )|[0,1];
+	}
+
+	Transition:
+	{
+		t1:p0-->p1,( Switch = on );
+		t2:p1-->p0,( Switch = off );
+	}
+
+
