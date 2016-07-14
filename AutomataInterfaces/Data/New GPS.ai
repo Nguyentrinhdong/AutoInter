@@ -1,5 +1,5 @@
 Def: Sattelite
-	Var:   Type = {idle, current_position, route_to_destination};
+	Var: Type = {idle, current_position, route_to_destination};
 		Type display;
 		Int usage;
 		Bool legaldestination;
