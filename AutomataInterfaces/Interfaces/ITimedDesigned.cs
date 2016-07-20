@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace AutomataInterfaces.Interfaces
 {
@@ -88,15 +89,38 @@ namespace AutomataInterfaces.Interfaces
             PostCondition = preRho[0].Remove(preRho[0].Length-1).Trim();
             Rho_f = PostCondition;
             Rho_t = preRho[1];//.Remove(preRho[1].Length - 1);
-            String [] interval = Rho_t.Split(',');
-            timedIntv.LowerBound = int.Parse(interval[0].Substring(1));
-            interval[1] = interval[1].Remove(interval[1].Length - 1);
-            if (interval[1].Trim()=="+")
+            try
             {
-                timedIntv.UpperBound = int.MaxValue;
+                String[] interval = Rho_t.Split(',');
+                if (interval[0].Length != 0)
+                {
+                    timedIntv.LowerBound = int.Parse(interval[0].Substring(1));
+                }
+                else
+                    timedIntv.LowerBound = 0;
+
+                if (interval[1].Length != 0)
+                {
+                    interval[1] = interval[1].Remove(interval[1].Length - 1);
+
+                }
+                else
+                    interval[1] = "0";
+
+
+                if (interval[1].Trim() == "+")
+                {
+                    timedIntv.UpperBound = int.MaxValue;
+                }
+                else
+                    timedIntv.UpperBound = int.Parse(interval[1]);
             }
-            else
-                timedIntv.UpperBound = int.Parse(interval[1]);
+            catch (IndexOutOfRangeException ex)
+            {
+                MessageBox.Show("There are errors in source code. Please check the timed duration.");
+                
+            }
+           
 
             timedIntv.TimeEvent = timedIntv.TimedEventRandom();
         }
