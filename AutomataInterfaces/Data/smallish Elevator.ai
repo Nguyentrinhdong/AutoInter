@@ -1,50 +1,52 @@
-Def: Door
-	Var: Type = {idle, current_position, up, down};
+Def: The_Carbin
+	Var: Type = {up, down};
+		Type1 = {0, 1, 2};
+		Type2 = {Open, Close};
 		Type Action;
+		Type1 Position;
+		Type2 Door;
 
 	Location:
 	{ 	
-		s1:( true => ( door = close ) && ( floor = 1 ) )|[0,1];
-		s2:( true => ( display = current_position ) )|[0,1];
-		s3:( ( legaldestination = true ) => ( display = route_to_destination ) )|[1,2];
-		s4:( true => ( display = idle ) )|[0,1];
-		s5:( true => ( display = current_position ) )|[0,1];
-		s6:( ( legaldestination = true ) => ( display = route_to_destination ) )|[1,2];
-		s7:( true => ( display = idle ) )|[0,1];
-		s8:( true => ( display = current_position ) )|[0,1];
+		s0:( true => ( ( ( Door = Open ) && ( Position = 0 ) ) || ( ( Door = Close ) && ( Position = 0 ) ) )|[0,1];
+		s1:( ( ( Position = 2 ) && ( Action = down ) ) => ( Position = 1 ) )|[0,1];
+		s2:( ( Action = up ) => ( Position = 2 ) )|[1,2];
+		
 	}
 
 	Input: 
 	{
-		Vao;
-		Ra;
+		Action;
 	}
 
 	Output: 
 	{
-		display; 
-
+		Position; 
 	}
 	q0:
 	{
-		s1:(true => (display = idle ) )|[0,1];
+		s0:( true => ( Action = down ) && ( Position = 0 ) )|[0,1];
+
 	}
 	Transition: 
 	{
-		t1:s1-->s1,( usage = 0 );
-		t2:s1-->s2,( usage != 0 );
-		t3:s2-->s3,( usage != 0 );
-		t4:s2-->s1,( usage = 0 );
-		t5:s3-->s1,( usage = 0 );
-		t6:s3-->s3,( usage != 0 );
+		t1:s0-->s0,( Action = down );
+		t2:s0-->s1,( Action = up );
+		t3:s1-->s2,( Action = up );
+		t4:s2-->s2,( Action = up );
+		t5:s2-->s1,( Action = down );
+		t6:s1-->s0,( Action = down );
 	}
 
-Def: User
-	Var: 	Type = {Idle, current_position, route_to_destination};
-		Int usage;
-		Bool legaldestination;
-		Type display;
-	
+Def: Controller
+	Var: Type = {up, down};
+		Type1 = {0, 1, 2};
+		Type2 = {Open, Close};
+		Type Action;
+		Type1 Position;
+		Type2 Door;
+
+
 	Location:
 	{
 		r1:( ( usage = 1 ) => ( display = idle ) )|[0,1];
