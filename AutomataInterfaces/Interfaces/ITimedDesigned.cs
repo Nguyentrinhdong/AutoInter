@@ -79,7 +79,9 @@ namespace AutomataInterfaces.Interfaces
         //s1:(true => (display = idle))|[0,1];
         public ITimedDesigned(String timedStr, String str1)
         {
-            ID = "D" + str1;
+            try
+            {
+                ID = "D" + str1;
             String[] Implyseparate = { "=>" };
 
             String[] element = timedStr.Split(Implyseparate,StringSplitOptions.RemoveEmptyEntries);
@@ -89,8 +91,7 @@ namespace AutomataInterfaces.Interfaces
             PostCondition = preRho[0].Remove(preRho[0].Length-1).Trim();
             Rho_f = PostCondition;
             Rho_t = preRho[1];//.Remove(preRho[1].Length - 1);
-            try
-            {
+            
                 String[] interval = Rho_t.Split(',');
                 if (interval[0].Length != 0)
                 {
