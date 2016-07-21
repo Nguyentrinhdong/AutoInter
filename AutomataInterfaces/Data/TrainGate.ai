@@ -1,69 +1,69 @@
 Def: Gate
 	Var:   
-		Type = {near, cross, pass};
-		Type1 = {idle, open};
-		Type input;
-		Type1 output;
+		Type = {Appearance, Cross, Leave};
+		Type1 = {Close, Open};
+		Type Position;
+		Type1 Barrier;
 
 	Location:
 	{ 	
-		s0:( true => ( output = idle ) )|[1,2];
-		s1:( ( ( input = near ) || ( input = cross ) ) => ( output = open ) )|[1,3];
+		s0:( true => ( Barrier = Close ) )|[1,3];
+		s1:( ( ( Position = Appearance ) || ( Position = Cross ) ) => ( Barrier = Close ) )|[10,30];
 	}
 
 	Input: 
 	{
-		input;
+		Position;
 	}
 
 	Output: 
 	{
-		output; 
+		Barrier; 
 	}
 	q0:
 	{
-		s0:( true => ( output = idle ) )|[1,2];
+		s0:( true => ( Barrier = Close ) )|[1,3];
+
 	}
 	Transition: 
 	{
-		t1:s0-->s1,( input = near );
-		t2:s1-->s1,( input = cross );
-		t3:s1-->s0,( input = pass );
+		t1:s0-->s1,( Position = Appearance );
+		t2:s1-->s1,( Position = Cross );
+		t3:s1-->s0,( Position = Leave );
 	}
 
 Def: Train
 	Var: 	
-		Type = {near, cross, pass};
-		Type1 = {idle, open};
-		Type input;
-		Type1 output;
-
+		Type = {Appearance, Cross, Leave};
+		Type1 = {Close, Open};
+		Type Position;
+		Type1 Barrier;
 	Location:
 	{
-		p0:( ( input = near ) => ( output = open ) )|[1,3];
-		p1:( ( input = cross ) => ( output = open ) )|[1,3];
-		p2:( ( input = pass ) => ( output = idle ) )|[0,3];
+		p0:( ( Position = Appearance ) => ( Barrier = Close ) )|[1,30];
+		p1:( ( Position = Cross ) => ( Barrier = Close ) )|[10,30];
+		p2:( ( Position = Leave ) => ( Barrier = Open ) )|[1,30];
 	}
 
 	Input:
 	{
-		input;
+		Position;
 	}
 
  	Output: 
 	{
-		output;
+		Barrier;
 	}
 	q0:
 	{
-		p0:( ( input = near ) => ( output = open ) )|[1,3];
+		p0:( ( Position = Appearance ) => ( Barrier = Close ) )|[1,30];
 	}
 
 	Transition:
 	{
-		t1:p0-->p1,( input = near );
-		t2:p1-->p2,( input = cross );
-		t3:p2-->p0,( input = pass );
+		t1:p0-->p1,( Position = Appearance );
+		t2:p1-->p2,( Position = Cross );
+		t3:p2-->p0,( Position = Leave );
 	}
 
 
