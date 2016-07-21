@@ -283,9 +283,17 @@ namespace AutomataInterfaces.PresentationLayer
             }
             else
             {
-                tabControlAI.SelectTab(0);
-                richTextBoxEditor.SaveFile(Path, RichTextBoxStreamType.PlainText);
-                this.Text = "[ " + Path + "] Automata Interfaces";
+                try
+                {
+                    tabControlAI.SelectTab(0);
+                    richTextBoxEditor.SaveFile(Path, RichTextBoxStreamType.PlainText);
+                    this.Text = "[ " + Path + "] Automata Interfaces";
+                }
+                catch   (IOException ex)
+                {
+
+                    MessageBox.Show(ex.Message.ToString());
+                }
             }
         }
     }

@@ -1,12 +1,15 @@
-(declare-datatypes () ((Type idle  current_position  route_to_destination))) 
-(declare-const display Type) 
-(declare-const usage Int) 
-(declare-const legaldestination Bool) 
-(define-fun F ( ) Bool 
- (if ( and ( not ( = usage 0 ) ) ( and ( and ( and ( = legaldestination true ) ( = usage 0 ) ) ( = display route_to_destination ) ) ( = usage 0 ) ) )   
+(declare-datatypes () ((GoodsKind null  Beer  Drink CashType Money))) 
+(declare-const Selectgoods GoodsKind) 
+(declare-const DeliverGoods GoodsKind) 
+(define-fun pPrime_p ( ) Bool 
+ (if ( => true true  ) 
  true 
  false
  ))
-(assert (= F  true)) 
-(check-sat) 
- 
+(define-fun R_RPrime ( ) Bool 
+ (if ( => ( and ( = Money 0 ) ( = Selectgoods null ) ) ( and ( = Money 0 ) ( = Selectgoods null ) )  ) 
+ true 
+ false
+ ))
+(assert (=  ( and pPrime_p  R_RPrime )  true)) 
+(check-sat)

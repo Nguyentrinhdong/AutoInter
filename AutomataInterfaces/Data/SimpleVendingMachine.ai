@@ -1,15 +1,15 @@
 Def: Vending_Machine
-	Var: CashType = {0, 10, 20, 50};
+	Var: CashType = {0, 10};
 		GoodsKind = {null, Beer, Drink}
 		CashType Money;
 		GoodsKind Selectgoods;
 		GoodsKind DeliverGoods;
 	Location:
 	{ 	
-		s0:( true => ( ( Money = 0 ) && ( Selectgoods = null ) ) )|[0,1];
-		s1:( ( Money >= 10 ) => ( ( Selectgoods = null ) && ( DeliverGoods = null ) ) )|[0,1];
-		s2:( (Selectgoods = Beer) => ( DeliverGoods = Beer) )|[1,2];
-		s3:( (Selectgoods = Beer) => ( DeliverGoods = Beer) )|[1,2];
+		s0:( true => ( ( Money = 0 ) && ( Selectgoods = null ) ) )|[1,5];
+		s1:( ( Money >= 10 ) => ( ( Selectgoods = null ) && ( DeliverGoods = null ) ) )|[1,5];
+		s2:( ( Selectgoods = Beer ) => ( DeliverGoods = Beer ) )|[1,2];
+		s3:( ( Selectgoods = Drink ) => ( DeliverGoods = Drink ) )|[1,2];
 	}
 
 	Input: 
@@ -24,20 +24,20 @@ Def: Vending_Machine
 	}
 	q0:
 	{
-		s1:(true => ( display = idle ) )|[0,1];
+		s0:( true => ( ( Money = 0 ) && ( Selectgoods = null ) ) )|[1,5];
+
 	}
 	Transition: 
 	{
-		t0:s0-->s1,( Money = 0 );
-		t2:s1-->s2,( usage != 0 );
-		t3:s2-->s3,( usage != 0 );
-		t4:s2-->s1,( usage = 0 );
-		t5:s3-->s1,( usage = 0 );
-		t6:s3-->s3,( usage != 0 );
+		t0:s0-->s1,( Money = 10 );
+		t1:s1-->s2,( Selectgoods = Beer );
+		t2:s2-->s0,( DeliverGoods = Beer );
+		t3:s1-->s3,( Selectgoods = Drink );
+		t4:s3-->s0,( DeliverGoods = Drink );
 	}
 
 Def: Clients
-	Var: CashType = {10,20,50};
+	Var: CashType = {0, 10};
 		GoodsKind = {Beer, Drink}
 		CashType Money;
 		GoodsKind Selectgoods;
@@ -45,9 +45,10 @@ Def: Clients
 
 	Location:
 	{
-		p0:( ( usage = 1 ) => ( display = idle ) )|[0,1];
-		p1:( ( usage = 1 ) => ( display = current_position ) )|[0,1];
-		p2:( ( ( legaldestination = true ) && ( usage = 0 ) ) => ( display = route_to_destination ) )|[0,3];
+		p0:( true => ( ( Money = 0 ) && ( Selectgoods = null ) ) )|[1,10];
+		p1:( ( Money = 10 ) => ( ( Selectgoods = null ) && ( DeliverGoods = null ) ) )|[1,10];
+		p2:( ( ( Selectgoods = Beer ) or ( Selectgoods = Drink ) ) => ( ( ( DeliverGoods = Beer ) && ( DeliverGoods != Drink ) ) or ( ( DeliverGoods = Drink ) && ( DeliverGoods != Beer ) ) ) )|[0,3];
+		
 	}
 
 	Input: 
@@ -63,14 +64,14 @@ Def: Clients
 
 	q0:
 	{
-		r1:( ( usage = 1 ) => ( display = idle ) )|[0,1];
+		p0:( true => ( ( Money = 0 ) && ( Selectgoods = null ) ) )|[0,10];
 	}
 
 	Transition:
 	{
-		t1:r1-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
-		t3:r3-->r1,( usage = 0 );
+		t1:p0-->p1,( Money = 10 );
+		t2:p1-->p2,( ( Selectgoods = Beer ) or ( Selectgoods = Drink ) );
+		t3:p2-->p0,( ( DeliverGoods = Beer ) or ( DeliverGoods  = Drink ) );
 	}
 
 

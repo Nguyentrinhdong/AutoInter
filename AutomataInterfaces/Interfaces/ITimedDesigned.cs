@@ -90,9 +90,9 @@ namespace AutomataInterfaces.Interfaces
             String[] preRho = element[1].Split('|');
             PostCondition = preRho[0].Remove(preRho[0].Length-1).Trim();
             Rho_f = PostCondition;
+               
             Rho_t = preRho[1];//.Remove(preRho[1].Length - 1);
-            
-                String[] interval = Rho_t.Split(',');
+            String[] interval = Rho_t.Split(',');
                 if (interval[0].Length != 0)
                 {
                     timedIntv.LowerBound = int.Parse(interval[0].Substring(1));

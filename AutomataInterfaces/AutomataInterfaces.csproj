@@ -122,6 +122,7 @@
     <None Include="Data\Gasburner-unplug.ai" />
     <None Include="Data\Gasburner.ai" />
     <None Include="Data\New GPS.ai" />
+    <None Include="Data\SimpleVendingMachine.ai" />
     <None Include="Data\smallish Elevator.ai" />
     <None Include="Data\TrainGate.ai" />
     <None Include="TimedAutomataInterface.cd" />
