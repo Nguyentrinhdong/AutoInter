@@ -79,20 +79,19 @@ Def: Controller
 
 	Transition:
 	{
-		t1:p0-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
-		t3:r3-->r1,( usage = 0 );
-		t1:r1-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
-		t3:r3-->r1,( usage = 0 );
-		t1:r1-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
-		t3:r3-->r1,( usage = 0 );
-		t1:r1-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
-		t3:r3-->r1,( usage = 0 );
-		t1:r1-->r2,( usage != 0 );
-		t2:r2-->r3,( usage != 0 );
+		t1:p0-->p3,( Door = Open );
+		t2:p3-->p0,( Door = Close );
+		t3:p0-->p1,( Action = up );
+		t4:p1-->p0,( Action = down );
+		t5:p1-->p2,( Action = up );
+		t6:p2-->p1,( Action = down );
+		t7:p1-->p4,( Door = Open );
+		t8:p4-->p1,( Door = Close );
+		t9:p2-->p5,( Door = Open );
+		t10:p5-->p2,( Door = Close );
+		t11:p2-->p0,( Action = down );
+		t12:p0-->p2,( Action = up );
+		
 		
 	}
 
